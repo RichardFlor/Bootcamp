@@ -1,6 +1,8 @@
 {
     "java.project.sourcePaths": [
+        "Aula 01 JAVA/src",
         "Aula 02 JAVA/src",
         "Aula 03 JAVA/src"
+
     ]
 }
