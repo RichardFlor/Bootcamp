@@ -54,6 +54,7 @@ public class Aula07 {
         String categoria = (video == "HunterXHunter") ? "anime" : "série";
      
             System.out.println(categoria);
+            
 
     }
 }
