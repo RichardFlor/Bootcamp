@@ -1,3 +1,4 @@
+import classes.Luta;
 import classes.Lutador;
 
 public class App {
@@ -12,8 +13,15 @@ public class App {
        lutador[4] = new Lutador("José", "Itália", 21, 1.83f, 119.3f, 15, 4, 1);
        lutador[5] = new Lutador("Sei la", "México", 21, 1.83f, 105.7f, 2, 7, 1);
 
+    // lutador[0].apresentar();
+    // lutador[3].status();
 
-       //lutador[0].apresentar();
-       lutador[3].status();
+        Luta luta = new Luta();
+        luta.marcarLuta(lutador[0], lutador[1]);
+        luta.lutar();
+        lutador[0].status();
+        lutador[1].status();
+        
+
     }
 }
